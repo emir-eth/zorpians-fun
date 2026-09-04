@@ -1,38 +1,29 @@
 # Zorpian Abduction Protocol
 
-Community-made interactive abduction experience inspired by [Zorpians](https://zorpians.xyz/).
+A community-made interactive site where Planet Zorp abducts you.
 
-**Not affiliated with or endorsed by Zorpians.**
+You drop in your X handle, get scanned, classified, assigned a simulated company, and walk out with an abduction record you can save or share. Ends on Planet Zorp.
 
-## Stack
+Inspired by [Zorpians](https://zorpians.xyz/) — not official, not affiliated, not endorsed. Company assignments here are just for the experience; the real one happens at mint.
 
-- Next.js 15
-- React 19
-- Tailwind CSS 4
-- Framer Motion
+Built by [@emir_ethh](https://x.com/emir_ethh).
 
-## Local development
+## Run it locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
-
-## Production build
+Then open http://localhost:3000
 
 ```bash
 npm run build
 npm start
 ```
 
-## Deploy (Vercel)
+## Notes
 
-1. Push this repo to GitHub
-2. Import the repo in [Vercel](https://vercel.com/new)
-3. Framework preset: **Next.js** (auto-detected)
-4. Build command: `npm run build`
-5. Output: default (no changes needed)
-
-No environment variables are required.
+- Same handle always produces the same result
+- No backend, no env vars
+- Next.js app — deploys cleanly on Vercel
